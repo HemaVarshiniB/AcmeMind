@@ -1,0 +1,7 @@
+service,owner,criticality,description,dependency
+API Gateway,Platform Engineering,Critical,Validates and routes merchant API requests,Identity Provider
+Payment Orchestrator,Payments Engineering,Critical,Coordinates payment lifecycle,API Gateway; Risk Engine; Ledger Service
+Risk Engine,Fraud Engineering,High,Evaluates transaction risk,Feature Store
+Ledger Service,Payments Engineering,Critical,Records financial entries,PostgreSQL
+Settlement Service,Finance Engineering,High,Prepares settlement and reconciliation batches,Ledger Service
+Notification Service,Platform Engineering,Medium,Delivers merchant status events,Message Queue

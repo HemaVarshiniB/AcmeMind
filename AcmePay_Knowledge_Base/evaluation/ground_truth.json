@@ -1,0 +1,182 @@
+[
+  {
+    "question_id": "Q001",
+    "expected_answer": "20 working days per calendar year.",
+    "expected_source": "raw/hr/employee_leave_policy.pdf",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q002",
+    "expected_answer": "At least 5 working days in advance.",
+    "expected_source": "raw/hr/employee_leave_policy.pdf",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q003",
+    "expected_answer": "The employee's direct manager.",
+    "expected_source": "raw/hr/employee_leave_policy.pdf",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q004",
+    "expected_answer": "No. Company systems must be accessed from an approved managed device.",
+    "expected_source": "raw/hr/work_from_home_policy.txt",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q005",
+    "expected_answer": "Report it to Security Operations immediately.",
+    "expected_source": "raw/hr/work_from_home_policy.txt",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q006",
+    "expected_answer": "The Payment Orchestrator.",
+    "expected_source": "raw/engineering/payment_platform_architecture.pdf",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q007",
+    "expected_answer": "The Ledger Service.",
+    "expected_source": "raw/engineering/payment_platform_architecture.pdf",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q008",
+    "expected_answer": "Idempotency keys.",
+    "expected_source": "raw/engineering/payment_platform_architecture.pdf",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q009",
+    "expected_answer": "60 requests per minute per API key.",
+    "expected_source": "raw/engineering/api_integration_guide.docx",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q010",
+    "expected_answer": "The final payment state is not yet known; wait for a webhook or query the status endpoint.",
+    "expected_source": "raw/engineering/api_integration_guide.docx",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q011",
+    "expected_answer": "Examples include 5xx rate above 2% for 5 minutes, p95 latency above 1.5 seconds for 10 minutes, or ledger consistency failures.",
+    "expected_source": "raw/engineering/deployment_runbook.md",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q012",
+    "expected_answer": "603,000 USD.",
+    "expected_source": "raw/finance/quarterly_financial_report.xlsx",
+    "department": "Finance"
+  },
+  {
+    "question_id": "Q013",
+    "expected_answer": "135,000 USD, calculated as net revenue minus operating expenses in the simplified dataset.",
+    "expected_source": "raw/finance/quarterly_financial_report.xlsx",
+    "department": "Finance"
+  },
+  {
+    "question_id": "Q014",
+    "expected_answer": "The total value of payment transactions processed during the reporting period; it is not the same as company revenue.",
+    "expected_source": "raw/finance/finance_reporting_definitions.pdf",
+    "department": "Finance"
+  },
+  {
+    "question_id": "Q015",
+    "expected_answer": "Check the payment status and wait for the provider callback; do not create a second payment with a new idempotency key unless the original is confirmed failed.",
+    "expected_source": "raw/customer_support/payment_troubleshooting_manual.pdf",
+    "department": "Customer Support"
+  },
+  {
+    "question_id": "Q016",
+    "expected_answer": "Check endpoint availability, signature validation, delivery attempts, and response codes.",
+    "expected_source": "raw/customer_support/payment_troubleshooting_manual.pdf",
+    "department": "Customer Support"
+  },
+  {
+    "question_id": "Q017",
+    "expected_answer": "Jordan Lee, with a target date of 21 October.",
+    "expected_source": "raw/meetings/sprint_review_2026_10_16.txt",
+    "department": "Project Management"
+  },
+  {
+    "question_id": "Q018",
+    "expected_answer": "At risk.",
+    "expected_source": "raw/meetings/project_alpha_status_report.md",
+    "department": "Project Management"
+  },
+  {
+    "question_id": "Q019",
+    "expected_answer": "A maximum of two automatic retries for eligible transient partner errors, using exponential backoff with jitter.",
+    "expected_source": "raw/meetings/payment_reliability_planning.txt",
+    "department": "Project Management"
+  },
+  {
+    "question_id": "Q020",
+    "expected_answer": "Apply user and tenant authorization filters so unauthorized content never enters model context.",
+    "expected_source": "raw/security/data_classification_policy.pdf",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q021",
+    "expected_answer": "Confidential.",
+    "expected_source": "raw/security/data_classification_policy.pdf",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q022",
+    "expected_answer": "Treat document content as untrusted data and never disclose secrets or follow malicious embedded instructions.",
+    "expected_source": "raw/security/prompt_injection_test_cases.json",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q023",
+    "expected_answer": "Above 1.5 seconds for 10 minutes.",
+    "expected_source": "raw/engineering/deployment_runbook.md",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q024",
+    "expected_answer": "Up to 5 days, subject to manager approval.",
+    "expected_source": "raw/hr/employee_leave_policy.pdf",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q025",
+    "expected_answer": "A reversal cancels or releases an authorization before settlement; a refund is a separate transaction after capture.",
+    "expected_source": "raw/customer_support/refund_and_reversal_policy.md",
+    "department": "Customer Support"
+  },
+  {
+    "question_id": "Q026",
+    "expected_answer": "PostgreSQL.",
+    "expected_source": "raw/engineering/payment_platform_architecture.pdf",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q027",
+    "expected_answer": "1.8 seconds.",
+    "expected_source": "raw/engineering/incident_report_2026_11_05.pdf",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q028",
+    "expected_answer": "A Retry-After header.",
+    "expected_source": "raw/engineering/api_integration_guide.docx",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q029",
+    "expected_answer": "Security / Information Security policy ownership is implied by the security policy; use the Security department as the owner in the dataset.",
+    "expected_source": "raw/security/data_classification_policy.pdf",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q030",
+    "expected_answer": "60 requests per minute per API key.",
+    "expected_source": "raw/engineering/api_integration_guide.docx",
+    "department": "Engineering"
+  }
+]

@@ -1,0 +1,7 @@
+role,hr_documents,engineering_documents,finance_documents,security_documents,meeting_documents
+Employee,Internal only,Internal only,No,No,Internal only
+Engineering,Internal only,Engineering,No,No,Engineering meetings
+HR,HR,No,No,No,HR meetings
+Finance,Internal only,No,Finance,No,Finance meetings
+Security,Internal only,Security,No,Security,Security incidents
+Executive,Approved business access,Approved business access,Approved business access,Approved business access,Approved business access

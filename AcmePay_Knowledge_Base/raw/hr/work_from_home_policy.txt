@@ -1,0 +1,20 @@
+ACMEPAY WORK-FROM-HOME POLICY
+Version: 1.0 | Owner: People Operations | Effective: 2026-01-01
+
+Purpose
+This policy defines expectations for remote and hybrid work at AcmePay.
+
+Eligibility
+Employees may work remotely when their role, customer commitments, and data-handling responsibilities permit it. Managers confirm team coverage and role eligibility.
+
+Security requirements
+Employees must use company-managed devices, approved VPN access, multi-factor authentication, and screen locking. Confidential documents must not be printed or stored on shared household devices. Public Wi-Fi may only be used with the approved secure connection.
+
+Availability
+Employees should maintain their agreed team working hours and keep their calendar status current. Managers may establish team-specific collaboration windows.
+
+Equipment
+Company-issued equipment remains company property. Lost or stolen devices must be reported to Security Operations immediately.
+
+Exceptions
+Exceptions require written approval from the department head and Security Operations.

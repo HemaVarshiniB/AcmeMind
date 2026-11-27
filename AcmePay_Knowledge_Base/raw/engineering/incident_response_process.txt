@@ -1,0 +1,21 @@
+ACMEPAY ENGINEERING INCIDENT RESPONSE PROCESS
+Severity 1: Confirmed widespread payment outage, suspected compromise of sensitive payment systems, or ledger integrity concern.
+Severity 2: Material degradation affecting multiple merchants without confirmed data compromise.
+Severity 3: Limited functionality issue with a workaround.
+
+Roles:
+Incident Commander coordinates response and decisions.
+Technical Lead directs investigation and remediation.
+Communications Lead manages stakeholder updates.
+Scribe maintains timeline and decisions.
+
+First actions:
+1. Acknowledge the alert and create an incident channel.
+2. Assign an Incident Commander.
+3. Establish scope and customer impact.
+4. Preserve relevant logs and evidence.
+5. Mitigate safely; do not destroy forensic evidence.
+6. Provide updates at the cadence set by the Incident Commander.
+
+After resolution:
+Complete a blameless review within five business days. Record root causes, contributing factors, detection gaps, and tracked corrective actions.

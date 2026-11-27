@@ -1,0 +1,16 @@
+ACMEPAY CUSTOMER FAQ
+
+Q: How long does an authorization take?
+A: Most sandbox authorizations return within a few seconds. Live timing depends on issuer and acquiring partner response times. A pending state may require a later status check.
+
+Q: Does a pending payment mean the customer was charged?
+A: Not necessarily. Pending means the final state is not yet known. Check the payment status and settlement records before making a claim.
+
+Q: Can a merchant retry a declined payment?
+A: A merchant may offer another payment method. Repeated rapid retries with the same details are discouraged and may trigger risk controls.
+
+Q: How can a merchant investigate a missing webhook?
+A: Check endpoint availability, signature validation, delivery attempts, and response codes in the merchant dashboard.
+
+Q: Where can a merchant find API limits?
+A: The Merchant API Integration Guide documents the fictional sandbox limit and retry behavior.

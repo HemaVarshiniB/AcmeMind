@@ -1,0 +1,152 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "How many annual leave days does an eligible full-time employee receive?",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q002",
+    "question": "How far in advance should planned leave be requested?",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q003",
+    "question": "Who approves an employee's leave request?",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q004",
+    "question": "Can employees use personal laptops to access company systems?",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q005",
+    "question": "What must an employee do if a company laptop is lost?",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q006",
+    "question": "Which service coordinates the payment lifecycle?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q007",
+    "question": "Which service stores immutable financial entries?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q008",
+    "question": "What mechanism helps prevent duplicate payment creation?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q009",
+    "question": "What is the fictional sandbox API rate limit?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q010",
+    "question": "What does a pending payment state mean?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q011",
+    "question": "What triggers rollback according to the deployment runbook?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q012",
+    "question": "What was AcmePay net revenue in 2026-Q2 in the synthetic workbook?",
+    "department": "Finance"
+  },
+  {
+    "question_id": "Q013",
+    "question": "What was operating profit in 2026-Q2?",
+    "department": "Finance"
+  },
+  {
+    "question_id": "Q014",
+    "question": "What is gross payment volume?",
+    "department": "Finance"
+  },
+  {
+    "question_id": "Q015",
+    "question": "What should support do when a payment is pending?",
+    "department": "Customer Support"
+  },
+  {
+    "question_id": "Q016",
+    "question": "How should a merchant investigate a missing webhook?",
+    "department": "Customer Support"
+  },
+  {
+    "question_id": "Q017",
+    "question": "Who owns the webhook history API pagination action from the sprint review?",
+    "department": "Project Management"
+  },
+  {
+    "question_id": "Q018",
+    "question": "What was the project status of Project Alpha on 2026-11-20?",
+    "department": "Project Management"
+  },
+  {
+    "question_id": "Q019",
+    "question": "What retry policy was agreed in the reliability planning meeting?",
+    "department": "Project Management"
+  },
+  {
+    "question_id": "Q020",
+    "question": "What should happen before returning retrieved chunks to the LLM?",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q021",
+    "question": "What classification applies to sensitive business or employee information?",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q022",
+    "question": "What should the system do if a retrieved document tells it to reveal API keys?",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q023",
+    "question": "What is the p95 latency rollback threshold in the deployment runbook?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q024",
+    "question": "What is the maximum annual leave carryover in the synthetic policy?",
+    "department": "HR"
+  },
+  {
+    "question_id": "Q025",
+    "question": "What is the difference between a refund and a reversal?",
+    "department": "Customer Support"
+  },
+  {
+    "question_id": "Q026",
+    "question": "Which datastore is described for transactional metadata and ledger records?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q027",
+    "question": "What was the incident's simulated p95 latency during the load test?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q028",
+    "question": "What does a 429 API response include?",
+    "department": "Engineering"
+  },
+  {
+    "question_id": "Q029",
+    "question": "Who owns the data classification policy?",
+    "department": "Security"
+  },
+  {
+    "question_id": "Q030",
+    "question": "How many requests per minute are allowed by the sandbox API key?",
+    "department": "Engineering"
+  }
+]

@@ -1,0 +1,24 @@
+ACMEPAY SPRINT REVIEW — 16 OCTOBER 2026
+Project: Merchant Experience Refresh
+Attendees: Maya Chen (Product), Jordan Lee (Engineering), Priya Nair (QA), Omar Reyes (Support)
+Note: All people and events are fictional.
+
+Summary
+The team completed the merchant transaction search filter and improved the payment detail page. The webhook delivery history view is partially complete.
+
+Decisions
+1. The transaction search filter will support merchant reference and payment status in the first release.
+2. The webhook history view will be released behind a feature flag.
+3. The team will not expose raw provider payloads in the merchant dashboard.
+
+Action items
+- Jordan: complete webhook history API pagination by 21 October.
+- Priya: add regression tests for pending-to-captured transitions by 20 October.
+- Omar: prepare updated support guidance for duplicate payment investigations by 22 October.
+- Maya: confirm release acceptance criteria with two pilot merchants by 19 October.
+
+Risks
+The acquiring partner sandbox has intermittent timeouts. QA will use recorded test fixtures when the sandbox is unavailable.
+
+Next review
+23 October 2026.

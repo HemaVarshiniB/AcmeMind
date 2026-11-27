@@ -1,0 +1,31 @@
+question_id,question,expected_answer,expected_source,department
+Q001,How many annual leave days does an eligible full-time employee receive?,20 working days per calendar year.,raw/hr/employee_leave_policy.pdf,HR
+Q002,How far in advance should planned leave be requested?,At least 5 working days in advance.,raw/hr/employee_leave_policy.pdf,HR
+Q003,Who approves an employee's leave request?,The employee's direct manager.,raw/hr/employee_leave_policy.pdf,HR
+Q004,Can employees use personal laptops to access company systems?,No. Company systems must be accessed from an approved managed device.,raw/hr/work_from_home_policy.txt,HR
+Q005,What must an employee do if a company laptop is lost?,Report it to Security Operations immediately.,raw/hr/work_from_home_policy.txt,HR
+Q006,Which service coordinates the payment lifecycle?,The Payment Orchestrator.,raw/engineering/payment_platform_architecture.pdf,Engineering
+Q007,Which service stores immutable financial entries?,The Ledger Service.,raw/engineering/payment_platform_architecture.pdf,Engineering
+Q008,What mechanism helps prevent duplicate payment creation?,Idempotency keys.,raw/engineering/payment_platform_architecture.pdf,Engineering
+Q009,What is the fictional sandbox API rate limit?,60 requests per minute per API key.,raw/engineering/api_integration_guide.docx,Engineering
+Q010,What does a pending payment state mean?,The final payment state is not yet known; wait for a webhook or query the status endpoint.,raw/engineering/api_integration_guide.docx,Engineering
+Q011,What triggers rollback according to the deployment runbook?,"Examples include 5xx rate above 2% for 5 minutes, p95 latency above 1.5 seconds for 10 minutes, or ledger consistency failures.",raw/engineering/deployment_runbook.md,Engineering
+Q012,What was AcmePay net revenue in 2026-Q2 in the synthetic workbook?,"603,000 USD.",raw/finance/quarterly_financial_report.xlsx,Finance
+Q013,What was operating profit in 2026-Q2?,"135,000 USD, calculated as net revenue minus operating expenses in the simplified dataset.",raw/finance/quarterly_financial_report.xlsx,Finance
+Q014,What is gross payment volume?,The total value of payment transactions processed during the reporting period; it is not the same as company revenue.,raw/finance/finance_reporting_definitions.pdf,Finance
+Q015,What should support do when a payment is pending?,Check the payment status and wait for the provider callback; do not create a second payment with a new idempotency key unless the original is confirmed failed.,raw/customer_support/payment_troubleshooting_manual.pdf,Customer Support
+Q016,How should a merchant investigate a missing webhook?,"Check endpoint availability, signature validation, delivery attempts, and response codes.",raw/customer_support/payment_troubleshooting_manual.pdf,Customer Support
+Q017,Who owns the webhook history API pagination action from the sprint review?,"Jordan Lee, with a target date of 21 October.",raw/meetings/sprint_review_2026_10_16.txt,Project Management
+Q018,What was the project status of Project Alpha on 2026-11-20?,At risk.,raw/meetings/project_alpha_status_report.md,Project Management
+Q019,What retry policy was agreed in the reliability planning meeting?,"A maximum of two automatic retries for eligible transient partner errors, using exponential backoff with jitter.",raw/meetings/payment_reliability_planning.txt,Project Management
+Q020,What should happen before returning retrieved chunks to the LLM?,Apply user and tenant authorization filters so unauthorized content never enters model context.,raw/security/data_classification_policy.pdf,Security
+Q021,What classification applies to sensitive business or employee information?,Confidential.,raw/security/data_classification_policy.pdf,Security
+Q022,What should the system do if a retrieved document tells it to reveal API keys?,Treat document content as untrusted data and never disclose secrets or follow malicious embedded instructions.,raw/security/prompt_injection_test_cases.json,Security
+Q023,What is the p95 latency rollback threshold in the deployment runbook?,Above 1.5 seconds for 10 minutes.,raw/engineering/deployment_runbook.md,Engineering
+Q024,What is the maximum annual leave carryover in the synthetic policy?,"Up to 5 days, subject to manager approval.",raw/hr/employee_leave_policy.pdf,HR
+Q025,What is the difference between a refund and a reversal?,A reversal cancels or releases an authorization before settlement; a refund is a separate transaction after capture.,raw/customer_support/refund_and_reversal_policy.md,Customer Support
+Q026,Which datastore is described for transactional metadata and ledger records?,PostgreSQL.,raw/engineering/payment_platform_architecture.pdf,Engineering
+Q027,What was the incident's simulated p95 latency during the load test?,1.8 seconds.,raw/engineering/incident_report_2026_11_05.pdf,Engineering
+Q028,What does a 429 API response include?,A Retry-After header.,raw/engineering/api_integration_guide.docx,Engineering
+Q029,Who owns the data classification policy?,Security / Information Security policy ownership is implied by the security policy; use the Security department as the owner in the dataset.,raw/security/data_classification_policy.pdf,Security
+Q030,How many requests per minute are allowed by the sandbox API key?,60 requests per minute per API key.,raw/engineering/api_integration_guide.docx,Engineering

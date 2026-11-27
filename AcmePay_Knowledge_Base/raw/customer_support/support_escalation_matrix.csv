@@ -1,0 +1,6 @@
+issue_type,initial_owner,target_acknowledgement,escalation
+Payment status question,Customer Support,1 business hour,Payments Operations if unresolved
+Confirmed duplicate capture,Payments Operations,15 minutes,Incident Commander if multiple merchants affected
+Webhook delivery issue,Developer Support,1 business hour,Platform Engineering if platform-wide
+Suspected data exposure,Security Operations,Immediate,Security Incident Commander
+Ledger mismatch,Payments Engineering,Immediate,Finance Controller and Incident Commander

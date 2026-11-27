@@ -1,0 +1,31 @@
+document_id,file_path,department,document_type,format,access_level,source,version,summary
+ACM-0001,raw/hr/employee_leave_policy.pdf,HR,policy,pdf,employees,synthetic,1.0,"Annual leave, sick leave, request lead time, approval process."
+ACM-0002,raw/hr/employee_handbook.docx,HR,handbook,docx,employees,synthetic,1.0,"Company overview, work arrangements, communication, performance, expenses."
+ACM-0003,raw/hr/work_from_home_policy.txt,HR,policy,txt,employees,synthetic,1.0,"Remote work eligibility, security, availability, equipment."
+ACM-0004,raw/hr/onboarding_checklist.md,HR,procedure,md,employees,synthetic,1.0,Employee onboarding tasks and timeline.
+ACM-0005,raw/hr/remote_work_faq.txt,HR,faq,txt,employees,synthetic,1.0,Remote work questions and answers.
+ACM-0006,raw/engineering/payment_platform_architecture.pdf,Engineering,architecture,pdf,employees,synthetic,1.0,"Payment platform services, request flow, data stores, resilience, security."
+ACM-0007,raw/engineering/api_integration_guide.docx,Engineering,api_guide,docx,employees,synthetic,1.0,"Merchant API, payment creation, statuses, rate limits, webhook verification."
+ACM-0008,raw/engineering/deployment_runbook.md,Engineering,runbook,md,employees,synthetic,1.0,"Deployment steps, health checks, rollback triggers."
+ACM-0009,raw/engineering/incident_response_process.txt,Engineering,procedure,txt,employees,synthetic,1.0,"Incident severity, roles, response and post-incident review."
+ACM-0010,raw/engineering/service_catalog.csv,Engineering,service_catalog,csv,employees,synthetic,1.0,"Service owners, criticality, dependencies."
+ACM-0011,raw/finance/quarterly_financial_report.xlsx,Finance,financial_report,xlsx,finance,synthetic,1.0,"Quarterly revenue, payment volume, operating expenses and department expenses."
+ACM-0012,raw/finance/finance_reporting_definitions.pdf,Finance,data_dictionary,pdf,finance,synthetic,1.0,"Definitions for GPV, revenue, expenses and operating profit."
+ACM-0013,raw/finance/regional_performance.csv,Finance,financial_dataset,csv,finance,synthetic,1.0,Synthetic regional payment volume and revenue.
+ACM-0014,raw/customer_support/payment_troubleshooting_manual.pdf,Customer Support,troubleshooting,pdf,employees,synthetic,1.0,"Troubleshooting pending, declined, duplicate payments and webhooks."
+ACM-0015,raw/customer_support/customer_faq.txt,Customer Support,faq,txt,employees,synthetic,1.0,Common merchant payment and webhook questions.
+ACM-0016,raw/customer_support/support_escalation_matrix.csv,Customer Support,escalation_matrix,csv,employees,synthetic,1.0,Issue ownership and escalation targets.
+ACM-0017,raw/meetings/sprint_review_2026_10_16.txt,Project Management,meeting_transcript,txt,employees,synthetic,1.0,"Sprint decisions, action items, risks and owners."
+ACM-0018,raw/meetings/payment_reliability_planning.txt,Project Management,meeting_transcript,txt,employees,synthetic,1.0,"Reliability decisions, retry policy, queue alert and action items."
+ACM-0019,raw/meetings/project_alpha_status_report.md,Project Management,project_report,md,employees,synthetic,1.0,"Project status, risks, progress, actions and dependencies."
+ACM-0020,raw/security/data_classification_policy.pdf,Security,policy,pdf,confidential,synthetic,1.0,"Classification levels, handling rules and RAG retrieval authorization."
+ACM-0021,raw/security/access_control_matrix.csv,Security,access_matrix,csv,confidential,synthetic,1.0,Illustrative role-to-document access matrix.
+ACM-0022,raw/security/prompt_injection_test_cases.json,Security,security_test_cases,json,confidential,synthetic,1.0,Prompt injection and access-control test cases.
+ACM-0023,raw/diagrams/payment_request_flow.png,Engineering,architecture_diagram,png,employees,synthetic,1.0,Visual payment request flow across platform services.
+ACM-0024,raw/diagrams/rag_data_flow_reference.png,Engineering,architecture_diagram,png,employees,synthetic,1.0,Illustrative ingestion and retrieval flow for the learning project.
+ACM-0025,raw/engineering/incident_report_2026_11_05.pdf,Engineering,incident_report,pdf,confidential,synthetic,1.0,"Synthetic incident with latency, cause, resolution and corrective actions."
+ACM-0026,raw/engineering/database_schema_notes.txt,Engineering,technical_note,txt,employees,synthetic,1.0,Payment domain logical schema and relationships.
+ACM-0027,raw/customer_support/refund_and_reversal_policy.md,Customer Support,policy,md,employees,synthetic,1.0,Differences between reversal and refund; support checks.
+ACM-0028,evaluation/questions.json,Evaluation,question_set,json,internal,synthetic,1.0,30 evaluation questions.
+ACM-0029,evaluation/ground_truth.json,Evaluation,ground_truth,json,internal,synthetic,1.0,Expected answers and source documents for evaluation.
+ACM-0030,evaluation/evaluation_dataset.csv,Evaluation,evaluation_dataset,csv,internal,synthetic,1.0,Flat evaluation dataset.

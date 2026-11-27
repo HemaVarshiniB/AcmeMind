@@ -1,0 +1,16 @@
+REMOTE WORK FAQ
+
+Q: Can I work from another country?
+A: Not automatically. International remote work requires prior approval from People Operations, Legal, Tax, and Information Security because employment, tax, and data-transfer rules may apply.
+
+Q: Can I use my personal laptop?
+A: No. Company systems containing internal or customer information must be accessed from an approved, managed device.
+
+Q: What if my internet connection fails?
+A: Notify your manager through an approved alternate channel and follow the team's continuity plan.
+
+Q: Who approves a long-term remote arrangement?
+A: The department head approves the business arrangement after People Operations and Security review.
+
+Q: Where do I report a lost laptop?
+A: Contact Security Operations immediately using the incident hotline listed in the internal directory.
